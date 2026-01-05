@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bakery-bg: #ffffff;
+  --bakery-dark: #0a101f;
+  --bakery-accent: #f59e0b;
+}
+
+body {
+  background-color: var(--bakery-bg);
+  color: var(--bakery-dark);
+}
+
+.bakery-shadow {
+  box-shadow: 0 20px 40px -15px rgba(245, 158, 11, 0.2);
+}
+
+.nav-blur {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+}

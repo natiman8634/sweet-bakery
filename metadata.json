@@ -1,0 +1,7 @@
+{
+  "name": "Sweet Bakery",
+  "description": "A warm and inviting delivery platform for a local bread and cake shop, featuring portals for customers, vendors, admins, and delivery staff.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
